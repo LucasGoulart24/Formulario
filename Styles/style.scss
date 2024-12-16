@@ -35,7 +35,7 @@ body{
         border-radius: 5px;
         color: black;
         font-size: 15px;
-        background-color: #eeeeee;
+        background-color: #f3f3f3;
         padding: 0px 10px;
         margin-top: 10px;
         margin-bottom: 5px;
@@ -52,7 +52,6 @@ body{
         font-size: 20px;
         cursor: pointer;
         background-color: dodgerblue;
-        color: white;
     }
 }
 
@@ -146,7 +145,7 @@ body{
     margin-top: 10px;
     label{
         font-size: 18px;
-        margin-left: -84%;
+        margin-left: -60%;
     }
     textarea{
         width: 100%;
@@ -162,6 +161,18 @@ body{
         width: 95%;
     }
 
+    .nascimento{
+        input{
+            width: 34%;
+        }
+    }
+
+    .especialidade{
+        select{
+            width: 30%;
+        }
+    }
+
     .linguagens{
         .tech{
             gap: 1%;
@@ -170,7 +181,7 @@ body{
 
     .mensagem{
         label{
-            margin-left: -79%;
+            margin-left: -50%;
         }
     }
 }
