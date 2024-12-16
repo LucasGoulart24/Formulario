@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+/*----Formulario----*/
+.formulario{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.3);
+    padding: 10px;
+    h1{
+        font-weight: 400;
+    }
+    input{
+        width: 100%;
+        height: 6vh;
+        outline: none;
+        border-radius: 5px;
+        color: black;
+        font-size: 15px;
+        background-color: #eeeeee;
+        padding: 0px 10px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        border: 1px solid gray;
+        &::placeholder{
+            color: black;
+        }
+    }
+    button{
+        width: 100%;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        background: linear-gradient(to right, dodgerblue, blueviolet);
+        color: white;
+    }
+}
+
+/*----Genero----*/
+.genero{
+    width: 100%;
+    padding: 5px;
+    h3{
+        font-weight: 400;
+    }
+}
+
+.selects{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2%;
+    input{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/*----Nascimento----*/
+.nascimento{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2%;
+    label{
+        font-size: 17px;
+    }
+    input{
+        width: 30%;
+    }
+}
+
+/*----Especialidade----*/
+.especialidade{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2%;
+    label{
+        font-size: 17px;
+    }
+    select{
+        width: 20%;
+        height: 4vh;
+        outline: none;
+        border-radius: 5px;
+        background-color: #eeeeee;
+        font-size: 15px;
+    }
+}
+
+/*----Linguagens----*/
+.linguagens{
+    width: 100%;
+    padding: 5px;
+    h3{
+        font-weight: 400;
+    }
+}
+
+.tech{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2%;
+    input{
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/*----Mensagem----*/
+.mensagem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    label{
+        font-size: 18px;
+        margin-left: -84%;
+    }
+    textarea{
+        width: 100%;
+        height: 17vh;
+        outline: none;
+        padding: 10px;
+    }
+}
+
+/*----Responsividade----*/
+@media screen and (max-width: 768px) {
+    .formulario{
+        width: 95%;
+    }
+
+    .linguagens{
+        .tech{
+            gap: 1%;
+        }
+    }
+
+    .mensagem{
+        label{
+            margin-left: -79%;
+        }
+    }
+}
