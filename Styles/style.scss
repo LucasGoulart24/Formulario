@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: dodgerblue;
+    background: linear-gradient(40deg, #00ff87, #60efff);
 }
 
 /*----Formulario----*/
@@ -51,7 +51,7 @@ body{
         border-radius: 5px;
         font-size: 20px;
         cursor: pointer;
-        background: linear-gradient(to right, dodgerblue, blueviolet);
+        background-color: dodgerblue;
         color: white;
     }
 }
