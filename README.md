@@ -4,4 +4,4 @@
 15/12/2024
 
 ## Captura
-<img src="./Capturas.png">
+<img src="./Captura.png">
